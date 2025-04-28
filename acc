@@ -1,0 +1,12 @@
+metamask test:
+d398ad15511f2ea95d57c90d16018ff66d852f8f3950520a247a20893c391604
+often rib icon chief author brave drink female quit bottom wreck elbow
+
+infura
+72c49bc8afe4896ab185ff8cf47c351
+https://mainnet.infura.io/v3/a72c49bc8afe4896ab185ff8cf47c351
+
+curl --url https://mainnet.infura.io/v3/a72c49bc8afe4896ab185ff8cf47c351 \
+  -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
